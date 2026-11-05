@@ -27,3 +27,10 @@
 - [ ] Markdown
   - visual studio code
   - local rendering
+- [ ] Git/Github
+  - How to create a repository
+    - clone
+    - push
+    - commit
+  - Differences between git/github
+    - local/remote
