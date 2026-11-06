@@ -208,3 +208,101 @@ troubleshooting and testing connection
 ```
 ssh -vT git@github.com
 ```
+
+## Linux detection commands
+
+view all login attempts
+```bash
+last
+```
+
+view all successful login
+```
+last -a
+```
+
+show failed login attempts
+```
+lastb
+```
+
+show all processes
+```
+ps aux
+```
+
+show process tree
+```
+px auxf
+```
+
+show all processes tree format
+```
+ps aux --forest
+```
+
+show all listening ports
+```
+netstat -tulpn
+```
+
+show all TCP connections
+```
+netstat -atn
+```
+
+show all UDP connections
+```
+netstat -aun
+```
+
+Filter by state
+```
+ss -t state established
+ss -t state listening
+```
+
+List processes using a specific file
+```
+lsof /etc/passwd
+```
+
+Find SUID files
+```
+find / -perm /4000 -type f 2>/dev/null
+```
+
+list all services
+```
+systemctl list-units --type=service
+```
+
+show services dependencies
+```
+systemctl list-dependencies sshd
+```
+
+view all logs
+```
+journalctl
+```
+
+view logs since boot
+```
+journalctl -b
+```
+
+view kernel messages
+```
+journalctl -k
+```
+
+view logs from last hour
+```
+journalctl --since "1 hour ago"
+```
+
+show logs with priority
+```
+journalctl -p err
+```
