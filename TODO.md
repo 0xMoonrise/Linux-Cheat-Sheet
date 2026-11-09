@@ -2,7 +2,7 @@
 
 *This guide has been written for 37 1a 1c 50 19 00 11 1d 4f 11 0c 12 16 06 10 16 01 03 42 08 01 17 49 1a 0d 06 1c 1c 18 06 05 0c 01 07 49 04 0c 1f 18 1e 54 26 42 01 0e 05 0c 53 06 04 1c 02 54 02 07 1d 41*
 
-- [ ] How to manage and configure services
+- [ ] How to manage and configure services [link](https://documentation.suse.com/sle-micro/6.0/html/Micro-systemd-basics/index.html)
   - Init run
     - systemd
   - What is a unix service
@@ -11,7 +11,7 @@
     - ssh
     - web services
     - scientific computing
-- [ ] Hacking basics
+- [ ] Hacking basics [PortSwigger Academy](https://portswigger.net/web-security)
   - Code injection
     - better understanding of code
   - Simple bypass
@@ -20,17 +20,23 @@
     - patterns
   - Security research
 - [ ] Containers (docker)
+  - How to install it [guide](https://docs.docker.com/engine/install/)
   - create a container
     - sandbox
   - manage start/run/stop/status
   - best local services
-- [ ] Markdown
+- [ ] Markdown [link](https://www.markdownguide.org/cheat-sheet/)
   - visual studio code
   - local rendering
 - [ ] Git/Github
+  - Basic commands [link](https://git-scm.com/cheat-sheet)
   - How to create a repository
     - clone
     - push
     - commit
   - Differences between git/github
     - local/remote
+- [ ] intro to streamlit
+  - What is streamlit [link](https://streamlit.io/playground)
+    - [gallery](https://streamlit.io/gallery)
+  - How to do my first app
