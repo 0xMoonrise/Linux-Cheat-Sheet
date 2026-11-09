@@ -40,3 +40,10 @@
   - What is streamlit [link](https://streamlit.io/playground)
     - [gallery](https://streamlit.io/gallery)
   - How to do my first app
+
+### Off-topic
+
+- [ ] Teach/refresh how to read music
+  - Basic clefs (G/F)
+  - Keys understanding
+  - Tempo
